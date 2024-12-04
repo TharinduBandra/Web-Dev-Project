@@ -1,0 +1,135 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      height: 100%;
+      flex-direction: column;
+      display: flex;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(206, 198, 198);
+      color: black;
+      padding: 15px 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav {
+      display: flex;
+      gap: 100px;
+      
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration:underline;
+    
+    }
+    main{
+      flex: 1;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: black;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .top-left {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255)
+    }
+    button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+    .top-left button:hover{
+        background-color: rgb(252, 252, 252);
+        color: black;
+    }
+    
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
+.sell{
+  text-align: center;
+  padding-bottom: 100px;
+}
+.img2{
+  float: left;
+
+}
+
+footer{
+  color: black;
+  background-color: aqua;
+  width: 100%;
+  position: sticky;
+  left:0;
+  bottom: 0;
+  text-align: center;
+}
+
+.topic1 {
+  text-align: center;
+  text-decoration:underline;
+  font-size: 200%;
+  font-weight: bolder;
+}
+section {
+  margin: 10px 150px;
+  padding: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #e6f7ff;
+}
+.beans img { 
+  align-content: flex-end;
+} 
+.carrot { color: orange; }
+.leaks { color: purple; }
+.pumpkin { color: darkorange; }
+.tomato { color: red; }
